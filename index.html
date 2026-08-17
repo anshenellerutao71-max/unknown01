@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Question ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Floating hearts -->
+
+    <div class="hearts">
+
+        <span>❤️</span>
+        <span>💗</span>
+        <span>💕</span>
+        <span>❤️</span>
+        <span>💖</span>
+        <span>💗</span>
+        <span>💕</span>
+        <span>❤️</span>
+
+    </div>
+
+
+    <!-- Main card -->
+
+    <div class="card">
+
+        <div class="heart">
+            ❤️
+        </div>
+
+        <h1>Hey...</h1>
+
+        <p>
+            I have something I want to tell you.
+        </p>
+
+        <button id="openButton"
+                onclick="openLetter()">
+
+            Open My Letter 💌
+
+        </button>
+
+
+        <!-- Letter -->
+
+        <div id="letter">
+
+            <h2>Dear You, ❤️</h2>
+
+            <p>
+                I've been wanting to tell you
+                something for a while.
+            </p>
+
+            <p>
+                I don't really know how to say it,
+                so I'll just be honest.
+            </p>
+
+            <p class="highlight">
+                I really like you. ❤️
+            </p>
+
+            <p>
+                And there's one thing I want to ask...
+            </p>
+
+            <h2>
+                Do you like me too? 💗
+            </h2>
+
+
+            <!-- Answer buttons -->
+
+            <div class="buttons">
+
+                <button class="yes"
+                        onclick="answerYes()">
+
+                    YES 💗
+
+                </button>
+
+                <button class="no"
+                        onclick="answerNo()">
+
+                    NO 🥲
+
+                </button>
+
+            </div>
+
+
+            <!-- Answer -->
+
+            <div id="answer">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
